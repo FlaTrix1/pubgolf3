@@ -80,42 +80,42 @@ const close = (value) => {
 					<!-- Modal body -->
 					<div class="p-6 grid grid-cols-3 gap-3">
 						<PubButton
-							pub="Beerlin 🍺"
+							pub="Beerlin"
 							value="beerlin"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Kelt ⚔️"
+							pub="Kelt"
 							value="kelt"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Bašta ❓"
+							pub="Bašta"
 							value="basta"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Pepo 👦🏼"
+							pub="Pepo"
 							value="pepo"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Living 🕺🏻"
+							pub="Living"
 							value="living"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Amstel 🍕"
+							pub="Amstel"
 							value="amstel"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Arcadia 🎱"
+							pub="Arcadia"
 							value="arcadia"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Utopia 🤢"
+							pub="Utopia"
 							value="utopia"
 							@clicked="(value) => close(value)"
 						/>
