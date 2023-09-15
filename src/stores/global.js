@@ -4,14 +4,9 @@ export const useGlobalStore = defineStore({
 	id: "global",
 	state: () => ({
 		username: null,
+		currentPub: null,
 	}),
-	getters: {
-		doubleCount: (state) => state.counter * 2,
-	},
-	actions: {
-		increment() {
-			this.counter++
-		},
-	},
+	getters: {},
+	actions: {},
 	persist: true,
 })
