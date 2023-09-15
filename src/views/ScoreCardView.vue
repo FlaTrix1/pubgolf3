@@ -37,13 +37,11 @@ const rootDb = r(db, "/")
 onValue(rootDb, (snapshot) => {
 	const data = snapshot.val()
 	setScoreCard(data)
-	console.log(scorecard)
 })
 </script>
 
 <template>
 	<main>
-		<h1 class="text-3xl">ScoreCard</h1>
 
 		<div class="relative overflow-x-auto">
 			<table class="w-full text-sm text-left text-gray-500">
