@@ -19,6 +19,17 @@ const router = createRouter({
 			component: LoginView,
 		},
 		{
+			path: "/scorecard",
+			name: "scorecard",
+			component: ScoreCardView,
+		},
+		{
+			path: "/pub",
+			name: "pub",
+			component: PubView,
+		},
+
+		{
 			path: "/home",
 			name: "home",
 			component: HomeView,
