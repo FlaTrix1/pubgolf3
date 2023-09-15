@@ -110,8 +110,8 @@ const close = (value) => {
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
-							pub="Amsterdam 🌿"
-							value="amsterdam"
+							pub="Arcadia 🎱"
+							value="arcadia"
 							@clicked="(value) => close(value)"
 						/>
 						<PubButton
