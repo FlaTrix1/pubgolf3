@@ -46,9 +46,9 @@ onValue(rootDb, (snapshot) => {
 		<h1 class="text-3xl">ScoreCard</h1>
 
 		<div class="relative overflow-x-auto">
-			<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+			<table class="w-full text-sm text-left text-gray-500">
 				<thead
-					class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"
+					class="text-xs text-gray-700 uppercase bg-gray-50"
 				>
 					<tr>
 						<th scope="col" class="px-6 py-3">aBar</th>
@@ -57,88 +57,88 @@ onValue(rootDb, (snapshot) => {
 					</tr>
 				</thead>
 				<tbody>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Beerlin
 						</th>
 						<td class="px-6 py-4">{{ scorecard.beerlin?.points || 0 }}</td>
 						<td class="px-6 py-4">{{ scorecard.beerlin?.penalty || 0 }}</td>
 					</tr>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Kelt
 						</th>
 						<td class="px-6 py-4">{{ scorecard.kelt?.points || 0 }}</td>
 						<td class="px-6 py-4">{{ scorecard.kelt?.penalty || 0 }}</td>
 					</tr>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Basta
 						</th>
 						<td class="px-6 py-4">{{ scorecard.basta?.points || 0 }}</td>
 						<td class="px-6 py-4">{{ scorecard.basta?.penalty || 0 }}</td>
 					</tr>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Pepo
 						</th>
 						<td class="px-6 py-4">{{ scorecard.basta?.pepo || 0 }}</td>
 						<td class="px-6 py-4">{{ scorecard.basta?.pepo || 0 }}</td>
 					</tr>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Arcadia
 						</th>
 						<td class="px-6 py-4">{{ scorecard.basta?.arcadia || 0 }}</td>
 						<td class="px-6 py-4">{{ scorecard.basta?.arcadia || 0 }}</td>
 					</tr>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Living
 						</th>
 						<td class="px-6 py-4">{{ scorecard.basta?.living || 0 }}</td>
 						<td class="px-6 py-4">{{ scorecard.basta?.living || 0 }}</td>
 					</tr>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Amstel
 						</th>
 						<td class="px-6 py-4">{{ scorecard.basta?.amstel || 0 }}</td>
 						<td class="px-6 py-4">{{ scorecard.basta?.amstel || 0 }}</td>
 					</tr>
-					<tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700"
+					<tr class="bg-white border-b  "
                     >
 						<th
 							scope="row"
-							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
+							class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap "
 						>
 							Utopia
 						</th>
@@ -163,10 +163,10 @@ onValue(rootDb, (snapshot) => {
 				data-tooltip-target="tooltip-home"
 				type="button"
 				class="inline-flex flex-col items-center justify-center px-5 rounded-l-full hover:bg-gray-50 group"
-				@click="router.push('/home')"
+				@click="$router.push('/home')"
 			>
 				<svg
-					class="w-5 h-5 mb-1 text-gray-500 dark:text-gray-400"
+					class="w-5 h-5 mb-1 text-gray-500 "
 					aria-hidden="true"
 					xmlns="http://www.w3.org/2000/svg"
 					fill="currentColor"
@@ -203,7 +203,7 @@ onValue(rootDb, (snapshot) => {
 
 			<button
 				type="button"
-				class="inline-flex flex-col items-center justify-center px-5 rounded-r-full hover:bg-gray-50 dark:hover:bg-gray-800 group"
+				class="inline-flex flex-col items-center justify-center px-5 rounded-r-full hover:bg-gray-50  group"
 			>
 				<svg
 					class="w-5 h-5 mb-1 text-blue-600"
@@ -220,7 +220,7 @@ onValue(rootDb, (snapshot) => {
 			<div
 				id="tooltip-profile"
 				role="tooltip"
-				class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+				class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip "
 			>
 				Profile
 			</div>
