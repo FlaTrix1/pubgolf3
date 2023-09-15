@@ -1,6 +1,8 @@
 <template>
 	<div class="text-center h-24 font-header dano"></div>
-	<RouterView />
+	<div class="h-[70vh] overflow-scroll">
+		<RouterView />
+	</div>
 	<div
 		class="fixed z-10 w-full h-16 max-w-lg -translate-x-1/2 bg-white border border-gray-200 rounded-full bottom-4 left-1/2"
 	>
