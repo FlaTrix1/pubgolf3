@@ -11,7 +11,7 @@ const store = useGlobalStore()
 const close = (value) => {
 	showDialog.value = false
 	store.currentPub = value
-	router.replace("/pub")
+	router.push("/pub")
 }
 </script>
 <template>

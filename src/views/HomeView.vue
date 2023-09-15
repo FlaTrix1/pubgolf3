@@ -34,7 +34,8 @@ const sortedScoreboard = computed(() => {
 const rootDb = ref(db, "/")
 onValue(rootDb, (snapshot) => {
 	const data = snapshot.val()
-	setScoreboard(data)
+
+	setScoreboard(data || {})
 })
 </script>
 
