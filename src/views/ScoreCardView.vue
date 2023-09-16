@@ -49,7 +49,7 @@ onValue(rootDb, (snapshot) => {
 					class="text-xs text-gray-700 uppercase bg-gray-50"
 				>
 					<tr>
-						<th scope="col" class="px-6 py-3">aBar</th>
+						<th scope="col" class="px-6 py-3">Bar</th>
 						<th scope="col" class="px-6 py-3">Score</th>
 						<th scope="col" class="px-6 py-3">Penalties</th>
 					</tr>
@@ -149,12 +149,7 @@ onValue(rootDb, (snapshot) => {
 		<div>
 		<h2 class="ml-2 mb-2 text-lg font-semibold text-gray-900 ">Rules:</h2>
 		<ul class="space-y-1 text-gray-500 list-inside w-72 mx-auto">
-			<li class="flex items-center">
-				<svg class="w-3.5 h-3.5 mr-2 text-red-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-					<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-				</svg>
-				-2 missing drink
-			</li>
+			
 			<li class="flex items-center">
 				<svg class="w-3.5 h-3.5 mr-2 text-red-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 					<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
@@ -162,17 +157,11 @@ onValue(rootDb, (snapshot) => {
 				-1 pissing
 		</li>
 		<li class="flex items-center">
-			<svg class="w-3.5 h-3.5 mr-2 text-purple-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-			</svg>
-			+6 pissing yourself
-		</li>
-		<li class="flex items-center">
-			<svg class="w-3.5 h-3.5 mr-2 text-red-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
-			</svg>
-			-5 cheating
-		</li>
+				<svg class="w-3.5 h-3.5 mr-2 text-red-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+					<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+				</svg>
+				-2 missing drink
+			</li>
 		<li class="flex items-center">
 			<svg class="w-3.5 h-3.5 mr-2 text-red-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
@@ -180,10 +169,36 @@ onValue(rootDb, (snapshot) => {
 			-2 we yeah but sa
 		</li>
 		<li class="flex items-center">
+			<svg class="w-3.5 h-3.5 mr-2 text-red-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+			</svg>
+			-4 commit vomit
+		</li>
+		<li class="flex items-center">
+			<svg class="w-3.5 h-3.5 mr-2 text-red-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+			</svg>
+			-5 cheating
+		</li>
+		
+		<li class="flex items-center">
 			<svg class="w-3.5 h-3.5 mr-2 text-green-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
 				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
 			</svg>
 			+3 kissing da homies
+		</li>
+		<li class="flex items-center">
+			<svg class="w-3.5 h-3.5 mr-2 text-green-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+			</svg>
+			+2 pablito(except T)
+		</li>
+		
+		<li class="flex items-center">
+			<svg class="w-3.5 h-3.5 mr-2 text-purple-500  flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+				<path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z"/>
+			</svg>
+			+6 pissing yourself
 		</li>
 	</ul>
 </div>	
